@@ -12,6 +12,26 @@ body {
     padding: 0.5rem 10%;
 }
 
+
+.bubble {
+    position: sticky;
+    background-color: green;
+    bottom: 5%;
+    left: 90%;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+
+}
+
+/* @media (max-width: 768px) {
+    .bubble {
+        left: 90%;
+        height: 3rem;
+        width: 3rem;
+    }
+} */
+
 @media (max-width: 768px) {
     .rm {
         display: none;
@@ -47,17 +67,6 @@ body {
 
 .black {
     color: balck;
-}
-
-.im {
-    /* width: auto; */
-    width: 100%;
-}
-
-@media (max-width: 768px) {
-    .im {
-        width: auto;
-    }
 }
 
 .wd100 {
@@ -166,7 +175,7 @@ h3 {
 }
 
 .first-section {
-    height: 30rem;
+    height: 768px;
 }
 
 .contact {
