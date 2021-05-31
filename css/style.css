@@ -3,7 +3,6 @@ body {
     margin: 0% 0%;
 }
 
-
 .navbar-brand {
     padding: 1% 10%;
 }
@@ -12,25 +11,54 @@ body {
     padding: 0.5rem 10%;
 }
 
-
-.bubble {
-    position: sticky;
-    background-color: green;
-    bottom: 5%;
-    left: 90%;
-    height: 3rem;
-    width: 3rem;
-    border-radius: 100%;
-
+.msg-holder {
+    text-align: center;
+    width: 7rem;
+    border-radius: 0.7rem;
+    margin: 1rem 0;
+    background-color: rgb(240, 240, 240);
+    float: left;
 }
 
-/* @media (max-width: 768px) {
-    .bubble {
-        left: 90%;
-        height: 3rem;
-        width: 3rem;
-    }
-} */
+.msg {
+    text-decoration: none;
+    color: black;
+}
+
+.b-img {
+    border-radius: 100%;
+    width: 3.5rem;
+}
+
+.bubble {
+    align-items: center;
+    bottom: 21px;
+    right: 23px;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
+    box-sizing: border-box;
+    direction: ltr;
+    position: fixed;
+}
+
+.bubble:hover a img {
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.bubble .msg {
+    display: none;
+}
+
+.bubble:hover .msg {
+    display: contents;
+}
+
+.bubble:hover div {
+    display: inline;
+    transform: translate(-1rem, 0);
+    transition: all 0.3s ease-in-out 0s;
+}
 
 @media (max-width: 768px) {
     .rm {
@@ -43,7 +71,6 @@ body {
         display: none;
     }
 }
-
 
 .no-p-m {
     margin: 0 0;
@@ -96,11 +123,6 @@ body {
     margin-right: 5%;
 }
 
-/* 
-.mg-l {
-    margin-left: 1rem;
-} */
-
 .logo {
     width: 2.5rem;
     position: relative;
@@ -120,11 +142,6 @@ body {
         font-size: 3.5rem;
     }
 }
-
-/* 
-.card {
-    margin: 0% 5%;
-} */
 
 .iconn {
     color: #7c7c7c;
@@ -174,6 +191,10 @@ h3 {
     background-color: rgb(216, 216, 216);
 }
 
+.product-img {
+    object-fit: fill;
+}
+
 .first-section {
     height: 768px;
 }
@@ -193,5 +214,5 @@ h3 {
 .footer-link {
     text-decoration: none;
     color: #8d8c8c;
-    margin: 0% 2%;
+    margin: 0% 1%;
 }
