@@ -14,7 +14,10 @@ body {
 .msg-holder {
     text-align: center;
     width: 7rem;
-    border-radius: 0.7rem;
+    /* border-radius: 0.7rem; */
+    border-bottom-left-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    border-top-left-radius: 0.6rem;
     margin: 1rem 0;
     background-color: rgb(240, 240, 240);
     float: left;
