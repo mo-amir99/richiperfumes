@@ -126,6 +126,11 @@ body {
     height: 36rem;
 }
 
+.card-title,
+.card-text {
+    color: teal;
+}
+
 .mg {
     margin-right: 5%;
 }
@@ -207,8 +212,12 @@ h3 {
     height: 768px;
 }
 
+.form {
+    padding: 5% 10%;
+}
+
 .contact {
-    color: white;
+    color: black;
 }
 
 .mar {
@@ -216,7 +225,7 @@ h3 {
 }
 
 .footer {
-    padding: 3% 15%;
+    padding: 2% 15%;
     background-color: teal;
 }
 
