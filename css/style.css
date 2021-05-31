@@ -11,6 +11,10 @@ body {
     padding: 0.5rem 10%;
 }
 
+.teal {
+    color: teal;
+}
+
 .msg-holder {
     text-align: center;
     width: 7rem;
@@ -147,7 +151,8 @@ body {
 }
 
 .iconn {
-    color: #7c7c7c;
+    /* color: #7c7c7c; */
+    color: teal;
     font-size: 5rem;
     padding-bottom: 20px;
 }
@@ -170,7 +175,7 @@ h3 {
 }
 
 .iconn:hover {
-    color: #444444;
+    color: rgb(0, 104, 104);
     cursor: default;
 
 }
@@ -212,10 +217,12 @@ h3 {
 
 .footer {
     padding: 3% 15%;
+    background-color: teal;
 }
 
 .footer-link {
     text-decoration: none;
-    color: #8d8c8c;
+    /* color: #8d8c8c; */
+    color: white;
     margin: 0% 1%;
 }
