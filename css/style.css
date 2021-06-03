@@ -46,6 +46,7 @@ body {
     box-sizing: border-box;
     direction: ltr;
     position: fixed;
+    z-index: 99;
 }
 
 .bubble:hover a img {
@@ -218,6 +219,10 @@ h3 {
 
 .contact {
     color: black;
+}
+
+.opt {
+    font-size: 0.7rem;
 }
 
 .mar {
