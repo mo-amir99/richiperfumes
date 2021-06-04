@@ -1,6 +1,50 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0% 0%;
+    margin: 0;
+    padding: 0;
+    color: teal;
+}
+
+.mynav {
+    background-color: white;
+    width: 100%;
+    /* position: fixed;
+    top: 0px; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1% 10%;
+    margin: 0;
+    z-index: 99;
+}
+
+@media (max-width: 768px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .hide-pc {
+        display: none;
+    }
+}
+
+.mynav-item {
+    margin: 0 3%;
+    text-decoration: none;
+    color: teal;
+}
+
+
+@media (min-width: 1100px) {
+    .mynav-item {
+        margin: 0 5%;
+    }
+}
+
+.mynav-item:hover {
+    color: rgb(0, 180, 180);
 }
 
 .navbar-brand {
@@ -46,7 +90,7 @@ body {
     box-sizing: border-box;
     direction: ltr;
     position: fixed;
-    z-index: 99;
+    z-index: 99999;
 }
 
 .bubble:hover a img {
@@ -87,7 +131,7 @@ body {
 
 .cim {
     width: 100%;
-    height: 36rem;
+    height: 40rem;
 }
 
 .cover {
@@ -108,6 +152,7 @@ body {
     width: 100%;
 }
 
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
     bottom: 3rem;
@@ -116,7 +161,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-    height: 36rem;
+    height: 40rem;
 }
 
 .carousel-item>img {
@@ -124,7 +169,7 @@ body {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 36rem;
+    height: 40rem;
 }
 
 .card-title,
@@ -141,6 +186,7 @@ body {
     position: relative;
     right: 10px;
 }
+
 
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -213,8 +259,117 @@ h3 {
     height: 768px;
 }
 
+#about {
+    padding: 10% 10% 0% 10%;
+
+}
+
+.ab {
+    align-items: center;
+    margin: 4rem 0 0 0;
+}
+
+.ab_2 {
+    align-items: center;
+    margin: 4rem 0 0 0;
+    direction: ltr;
+}
+
+.ab_cont {
+    font-size: 14px;
+    text-align: right;
+    min-height: 500px;
+    padding: 5% 5%;
+    background-color: white;
+    box-shadow: 0 0 8px 5px #969696;
+    position: relative;
+}
+
+.ab_contact {
+    font-size: 14px;
+    text-align: right;
+    /* min-height: 300px; */
+    padding: 5% 5%;
+    background-color: white;
+    position: relative;
+}
+
+@media (min-width: 769px) {
+    .ab_contact {
+
+        min-height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ab_cont {
+        min-height: 0;
+        text-align: center;
+        box-shadow: none;
+    }
+}
+
+.ab_text p {
+    font-weight: 300;
+    /* font-size: 14px !important;
+    letter-spacing: 1px;
+    line-height: 18px; */
+    margin: 0;
+    color: #292929;
+}
+
+.mybox {
+    background: #fff;
+    width: 466px;
+    padding: 40px 30px;
+    text-align: right;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    box-shadow: 0 0 8px -4px;
+}
+
+.ab_container_in_image {
+    background-color: white;
+    margin: 5% 5%;
+    position: absolute;
+    top: 1rem;
+    left: -10rem;
+    padding: 5%;
+    /* box-shadow: 0 0 8px 5px #8b8b8b; */
+}
+
+.ab_img {
+    z-index: 11;
+    position: relative;
+    /* right: 20px; */
+    /* margin: 0 2%; */
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .ab_img {
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+}
+
+.ab_text {
+    align-self: flex-end;
+}
+
+@media (min-width: 769px) {
+    .ab_text {
+        position: absolute;
+        bottom: 4rem;
+        right: 1rem;
+        padding: 5%;
+    }
+}
+
 .form {
-    padding: 5% 10%;
+    padding: 10% 10% 0% 10%;
 }
 
 .contact {
@@ -238,5 +393,5 @@ h3 {
     text-decoration: none;
     /* color: #8d8c8c; */
     color: white;
-    margin: 0% 1%;
+    margin: 0% 1.5rem;
 }
